@@ -1,0 +1,119 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: .14rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "楷体";
+    text-size-adjust: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 625%;
+}
+
+img,
+div,
+body,
+html,
+ul,
+li,
+a {
+    -webkit-touch-callout: none;
+}
+
+input,
+button {
+    outline: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.box {
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    margin: 20% 5%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.box dl {
+    width: 40%;
+    margin: 25px 30%;
+}
+
+.box dl dt img {
+    width: 100%;
+    height: 100%;
+}
+
+.box ul li {
+    width: 90%;
+    margin-left: 5%;
+    height: 30px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.box ul li input {
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    border: none;
+}
+
+.box ul li img {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 15px;
+}
+
+.box ul li:nth-child(3) {
+    border: none;
+}
+
+.box ul li:nth-child(3) button {
+    width: 100%;
+    height: 100%;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
